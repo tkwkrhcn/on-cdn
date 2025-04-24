@@ -1,6 +1,3 @@
-// banner.js (깃허브에 저장)
-// JS 삽입만으로 배너 자동 노출, HTML엔 남지 않음
-
 (function() {
   const style = document.createElement("style");
   style.textContent = `
