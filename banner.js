@@ -107,8 +107,7 @@ const shuffledBanners = [
 ];
 
 const fixedBanners = [
-  { url: "https://t.me/oncs114/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/ad9b6afd-90a7-4fd1-82b0-d898534e7e00/public", alt: "총판모집 총판사이트" },
-  { url: "https://t.me/oncs114/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/efd3207f-adc7-45ba-525a-da89fe6af200/public", alt: "총판모집 총판사이트" }
+  { url: "https://t.me/oncs114/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/ad9b6afd-90a7-4fd1-82b0-d898534e7e00/public", alt: "총판모집 총판사이트" }
 ];
 
 // --- 5. 랜덤배너 셔플 & 랜더링 ---
