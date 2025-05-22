@@ -66,7 +66,7 @@ document.head.appendChild(style);
 const cubeBanners = [
   { url: "https://t.me/MUL114/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d0640ad4-71ce-4581-bc83-bc22d4dbaf00/public", alt: "토토사이트 물음표 총판모집" },
   { url: "https://t.me/ask1004/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/a54390cd-4825-45eb-97b2-9f7bd8985b00/public", alt: "토토사이트 아하 총판모집" },
-  { url: "https://t.me/partnerbetwiz/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/19db172f-3168-45a1-918f-3e64aff15700/public", alt: "토토사이트 벳위즈 총판모집" },
+  { url: "https://t.me/betwizptcs/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/d16c063c-5f85-40ea-1486-10329cc7b400/public", alt: "토토사이트 벳위즈 총판모집" },
   { url: "https://t.me/MUL114/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d0640ad4-71ce-4581-bc83-bc22d4dbaf00/public", alt: "토토사이트 물음표 총판모집" }
 ];
 
@@ -99,7 +99,7 @@ renderCubeBanner();
 
 // --- 4. 일반 랜덤 배너 데이터 ---
 const shuffledBanners = [
-  { url: "https://t.me/partnerbetwiz/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/ba0039b8-ff2f-4dec-e179-1af43dd91500/public", alt: "토토사이트 벳위즈 토토총판" },
+  { url: "https://t.me/betwizptcs/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/fdec73b4-ebd8-4449-4ca1-cf11f276a100/public", alt: "토토사이트 벳위즈 토토총판" },
   { url: "https://t.me/MUL114/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d11759ca-6c22-4b22-3ae0-3ed298893500/public", alt: "토토사이트 물음표 토토총판" },
   { url: "https://t.me/ask1004/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/13fc4195-2db7-4ecc-6317-792330765800/public", alt: "토토사이트 아하 토토총판" },
   { url: "http:rc337.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/e0968bca-1909-48b8-33f6-2f3d8e8ce600/public", alt: "토토사이트 룸카지노 토토총판" },
