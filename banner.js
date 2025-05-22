@@ -65,9 +65,9 @@ document.head.appendChild(style);
 // --- 2. 큐브 배너 데이터 ---
 const cubeBanners = [
   { url: "https://t.me/MUL114/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d0640ad4-71ce-4581-bc83-bc22d4dbaf00/public", alt: "토토사이트 물음표 총판모집" },
+  { url: "https://t.me/ask1004/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/a54390cd-4825-45eb-97b2-9f7bd8985b00/public", alt: "토토사이트 아하 총판모집" },
   { url: "https://t.me/betwizptcs/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/d16c063c-5f85-40ea-1486-10329cc7b400/public", alt: "토토사이트 벳위즈 총판모집" },
-  { url: "https://t.me/MUL114/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d0640ad4-71ce-4581-bc83-bc22d4dbaf00/public", alt: "토토사이트 물음표 총판모집" },
-  { url: "https://t.me/ask1004/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/a54390cd-4825-45eb-97b2-9f7bd8985b00/public", alt: "토토사이트 아하 총판모집" }
+  { url: "https://t.me/MUL114/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d0640ad4-71ce-4581-bc83-bc22d4dbaf00/public", alt: "토토사이트 물음표 총판모집" }
 ];
 
 // --- 3. 큐브 배너 랜더링 ---
