@@ -3,7 +3,7 @@ const bgVideoSection = document.createElement('div');
 bgVideoSection.id = 'custom-top-video';
 bgVideoSection.innerHTML = `
   <video autoplay muted loop playsinline id="custom-video">
-    <source src="https://riflerivercampground.com/wp-content/uploads/2025/02/총판모집-총판홍보-총판사이트-총판커뮤니티-총판온.webm" type="video/webm">
+    <source src="https://riflerivercampground.com/wp-content/uploads/2025/06/partneron.webm" type="video/webm">
     Your browser does not support the video tag.
   </video>
 `;
