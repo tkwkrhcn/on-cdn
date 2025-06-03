@@ -26,13 +26,10 @@ style.textContent = `
     width: 100%;
     height: 150px;
     overflow: hidden;
-    z-index: 1;
   }
   #custom-video {
     width: 100%;
     height: auto;
-    object-fit: cover;
-    display: block;
   }
 
   /* 공통 큐브 스타일 */
