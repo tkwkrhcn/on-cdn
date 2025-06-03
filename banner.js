@@ -7,7 +7,6 @@ bgVideoSection.innerHTML = `
   <source src="https://riflerivercampground.com/wp-content/uploads/2025/06/partneron.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 `;
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -34,6 +33,7 @@ style.textContent = `
     width: 100%;
     height: 140px;
     object-fit: cover;
+    object-position: center center; /* ✅ 중앙 정렬 핵심 속성 */
     display: block;
   }
 
@@ -112,6 +112,7 @@ style.textContent = `
   }
 `;
 document.head.appendChild(style);
+
 
 // --- 큐브 배너 1 ---
 const cubeBanners = [
