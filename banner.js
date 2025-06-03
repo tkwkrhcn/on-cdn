@@ -32,7 +32,7 @@ style.textContent = `
 
 #custom-video {
   width: 100%;
-  height: auto;
+  height: 120px;
   object-fit: cover;
   display: block;
 }
