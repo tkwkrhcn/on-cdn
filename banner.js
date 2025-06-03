@@ -24,7 +24,7 @@ style.textContent = `
   /* 🔺 얇은 띠형 배경 동영상 스타일 */
   #custom-top-video {
     width: 100%;
-    height: auto;
+    height: 150px;
     overflow: hidden;
     position: relative;
     z-index: 1;
