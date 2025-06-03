@@ -3,8 +3,8 @@ const bgVideoSection = document.createElement('div');
 bgVideoSection.id = 'custom-top-video';
 bgVideoSection.innerHTML = `
 <video autoplay muted loop playsinline id="custom-video" style="width:100%; height:auto; display:block;">
-  <source src="partneron.webm" type="video/webm">
-  <source src="partneron.mp4" type="video/mp4">
+  <source src="https://riflerivercampground.com/wp-content/uploads/2025/06/partneron.webm" type="video/webm">
+  <source src="https://riflerivercampground.com/wp-content/uploads/2025/06/partneron.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
