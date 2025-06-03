@@ -1,20 +1,26 @@
-// --- 0. 동영상 배경 추가 (즉시 body에 삽입) ---
+// --- 0. 동영상 배경 추가 ---
 const bgVideoSection = document.createElement('div');
 bgVideoSection.id = 'custom-top-video';
-bgVideoSection.innerHTML = `
+bgVideoSection.innerHTML = 
 <video autoplay muted loop playsinline id="custom-video" style="width:100%; height:auto; display:block;">
-  <source src="https://riflerivercampground.com/wp-content/uploads/2025/06/partneron.webm" type="video/webm">
   <source src="https://riflerivercampground.com/wp-content/uploads/2025/06/partneron.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-`;
 
-// ✅ 무조건 body 최상단에 삽입
-document.body.insertBefore(bgVideoSection, document.body.firstChild);
+;
+
+window.addEventListener("DOMContentLoaded", () => {
+  const header = document.querySelector('header');
+  if (header && header.nextElementSibling) {
+    header.parentNode.insertBefore(bgVideoSection, header.nextElementSibling);
+  } else {
+    document.body.prepend(bgVideoSection); // fallback
+  }
+});
 
 // --- 1. 스타일 삽입 ---
 const style = document.createElement('style');
-style.textContent = `
+style.textContent = 
   /* 🔺 얇은 띠형 배경 동영상 스타일 */
   #custom-top-video {
     width: 100%;
@@ -27,7 +33,6 @@ style.textContent = `
     width: 100%;
     height: 140px;
     object-fit: cover;
-    object-position: center center;
     display: block;
   }
 
@@ -104,9 +109,8 @@ style.textContent = `
       padding: 5px;
     }
   }
-`;
-document.head.appendChild(style);
-
+;
+document.head.appendChild(style); 
 
 // --- 큐브 배너 1 ---
 const cubeBanners = [
