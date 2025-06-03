@@ -23,14 +23,14 @@ style.textContent = `
   /* 🔺 얇은 띠형 배경 동영상 스타일 */
   #custom-top-video {
     width: 100%;
-    height: 100px;
+    height: 140px;
     overflow: hidden;
     position: relative;
     z-index: 1;
   }
   #custom-video {
     width: 100%;
-    height: 100px;
+    height: 140px;
     object-fit: cover;
     display: block;
   }
