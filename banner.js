@@ -1,13 +1,12 @@
 // --- 0. 동영상 배경 추가 ---
 const bgVideoSection = document.createElement('div');
 bgVideoSection.id = 'custom-top-video';
-bgVideoSection.innerHTML = 
-<video autoplay muted loop playsinline id="custom-video" style="width:100%; height:auto; display:block;">
-  <source src="https://riflerivercampground.com/wp-content/uploads/2025/06/partneron.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-;
+bgVideoSection.innerHTML = `
+  <video autoplay muted loop playsinline id="custom-video">
+    <source src="https://riflerivercampground.com/wp-content/uploads/2025/06/partneron.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+`;
 
 window.addEventListener("DOMContentLoaded", () => {
   const header = document.querySelector('header');
