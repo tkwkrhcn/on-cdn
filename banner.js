@@ -1,6 +1,33 @@
+// --- 0. 동영상 배경 추가 ---
+const bgVideoSection = document.createElement('div');
+bgVideoSection.id = 'custom-top-video';
+bgVideoSection.innerHTML = `
+  <video autoplay muted loop playsinline id="custom-video">
+    <source src="https://riflerivercampground.com/wp-content/uploads/2025/02/총판모집-총판홍보-총판사이트-총판커뮤니티-총판온.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+`;
+document.body.prepend(bgVideoSection); // 최상단에 삽입
+
 // --- 1. 스타일 삽입 ---
 const style = document.createElement('style');
 style.textContent = `
+  /* 🔺 배경 동영상 스타일 */
+  #custom-top-video {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+  }
+  #custom-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
   /* 공통 큐브 스타일 */
   #banner-cube-stage, #banner-cube-stage-2 {
     perspective: 700px;
@@ -75,6 +102,7 @@ style.textContent = `
   }
 `;
 document.head.appendChild(style);
+
 
 // --- 큐브 배너 1 ---
 const cubeBanners = [
