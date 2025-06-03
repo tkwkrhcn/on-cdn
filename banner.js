@@ -22,15 +22,20 @@ window.addEventListener("DOMContentLoaded", () => {
 const style = document.createElement('style');
 style.textContent = `
   /* 🔺 얇은 띠형 배경 동영상 스타일 */
-  #custom-top-video {
-    width: 100%;
-    height: 150px;
-    overflow: hidden;
-  }
-  #custom-video {
-    width: 100%;
-    height: auto;
-  }
+#custom-top-video {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+#custom-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
 
   /* 공통 큐브 스타일 */
   #banner-cube-stage, #banner-cube-stage-2 {
