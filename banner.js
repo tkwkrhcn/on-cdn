@@ -12,20 +12,19 @@ document.body.prepend(bgVideoSection); // 최상단에 삽입
 // --- 1. 스타일 삽입 ---
 const style = document.createElement('style');
 style.textContent = `
-  /* 🔺 배경 동영상 스타일 */
+  /* 🔺 얇은 띠형 배경 동영상 스타일 */
   #custom-top-video {
     width: 100%;
+    height: 100px;
     overflow: hidden;
-    padding-top: 100px;
-    padding-bottom: 100px;
     position: relative;
     z-index: 1;
   }
   #custom-video {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100px;
     object-fit: cover;
+    display: block;
   }
 
   /* 공통 큐브 스타일 */
@@ -87,6 +86,7 @@ style.textContent = `
     height: auto;
     display: block;
   }
+
   @media (max-width: 768px) {
     #banner-cube-stage,
     #banner-cube-stage-2 {
@@ -102,6 +102,7 @@ style.textContent = `
   }
 `;
 document.head.appendChild(style);
+
 
 
 // --- 큐브 배너 1 ---
