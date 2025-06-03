@@ -3,7 +3,7 @@ const bgVideoSection = document.createElement('div');
 bgVideoSection.id = 'custom-top-video';
 bgVideoSection.innerHTML = `
   <video autoplay muted loop playsinline id="custom-video">
-    <source src="https://riflerivercampground.com/wp-content/uploads/2025/06/partneron.webm" type="video/webm">
+    <source src="https://riflerivercampground.com/wp-content/uploads/2025/02/총판모집-총판홍보-총판사이트-총판커뮤니티-총판온.webm" type="video/webm">
     Your browser does not support the video tag.
   </video>
 `;
@@ -19,18 +19,18 @@ window.addEventListener("DOMContentLoaded", () => {
 
 // --- 1. 스타일 삽입 ---
 const style = document.createElement('style');
-style.textContent = 
+style.textContent = `
   /* 🔺 얇은 띠형 배경 동영상 스타일 */
   #custom-top-video {
     width: 100%;
-    height: 140px;
+    height: 100px;
     overflow: hidden;
     position: relative;
     z-index: 1;
   }
   #custom-video {
     width: 100%;
-    height: 140px;
+    height: 100px;
     object-fit: cover;
     display: block;
   }
@@ -108,8 +108,9 @@ style.textContent =
       padding: 5px;
     }
   }
-;
-document.head.appendChild(style); 
+`;
+document.head.appendChild(style);
+
 
 // --- 큐브 배너 1 ---
 const cubeBanners = [
