@@ -26,7 +26,6 @@ style.textContent = `
     width: 100%;
     height: 150px;
     overflow: hidden;
-    position: relative;
     z-index: 1;
   }
   #custom-video {
