@@ -7,7 +7,15 @@ bgVideoSection.innerHTML = `
     Your browser does not support the video tag.
   </video>
 `;
-document.body.prepend(bgVideoSection); // 최상단에 삽입
+
+window.addEventListener("DOMContentLoaded", () => {
+  const header = document.querySelector('header');
+  if (header && header.nextElementSibling) {
+    header.parentNode.insertBefore(bgVideoSection, header.nextElementSibling);
+  } else {
+    document.body.prepend(bgVideoSection); // fallback
+  }
+});
 
 // --- 1. 스타일 삽입 ---
 const style = document.createElement('style');
@@ -102,8 +110,6 @@ style.textContent = `
   }
 `;
 document.head.appendChild(style);
-
-
 
 // --- 큐브 배너 1 ---
 const cubeBanners = [
