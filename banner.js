@@ -188,9 +188,7 @@ const shuffledBanners = [
   { url: "https://t.me/MUL114/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d11759ca-6c22-4b22-3ae0-3ed298893500/public", alt: "물음표" },
   { url: "https://t.me/ask1004/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/13fc4195-2db7-4ecc-6317-792330765800/public", alt: "아하" },
   { url: "https://t.me/kr1xbetpartner/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/3c899412-c689-4f4c-11bc-a7c1944f1e00/public", alt: "1xbet" },
-  { url: "https://t.me/krmelbet/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/e2e9e4b7-dcd3-43e4-c082-ece47d34f100/public", alt: "멜벳" },
-  { url: "http://rc337.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/e0968bca-1909-48b8-33f6-2f3d8e8ce600/public", alt: "룸카지노" },
-  { url: "http://dg745.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/789d8ec7-07c9-49db-697b-77df509a3000/public", alt: "돌리고" }
+  { url: "https://t.me/krmelbet/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/e2e9e4b7-dcd3-43e4-c082-ece47d34f100/public", alt: "멜벳" }
 ];
 const fixedBanners = [
   { url: "https://t.me/oncs114/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/ad9b6afd-90a7-4fd1-82b0-d898534e7e00/public", alt: "총판모집" }
