@@ -151,9 +151,9 @@ renderCubeBanner();
 // --- 큐브 배너 2 ---
 const cubeBanners2 = [
   { url: "https://t.me/kr1xbetpartner/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/d85ee81d-6726-4002-50fa-939f283f3500/public", alt: "1xbet-1" },
-  { url: "https://t.me/krmelbet/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/9c45dcc9-e44e-4ec2-b4c5-01b05b6c1900/public", alt: "melbet-2" },
+  { url: "https://t.me/krmelbet/", img: "https://imgur.com/yaEHcD6", alt: "melbet-2" },
   { url: "https://t.me/kr1xbetpartner/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/d85ee81d-6726-4002-50fa-939f283f3500/public", alt: "1xbet-2" },
-  { url: "https://t.me/krmelbet/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/9c45dcc9-e44e-4ec2-b4c5-01b05b6c1900/public", alt: "melbet-3" }
+  { url: "https://t.me/krmelbet/", img: "https://imgur.com/yaEHcD6", alt: "melbet-3" }
 ];
 function renderSecondCubeBanner() {
   const stage = document.createElement('div');
