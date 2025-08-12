@@ -150,9 +150,9 @@ renderCubeBanner();
 
 // --- 큐브 배너 2 ---
 const cubeBanners2 = [
-  { url: "https://riflerivercampground.com/bn-5/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/d85ee81d-6726-4002-50fa-939f283f3500/public", alt: "1xbet-1" },
+  { url: "https://riflerivercampground.com/bn-5/", img: "https://imgur.com/OxG9Nrb", alt: "1xbet-1" },
   { url: "https://riflerivercampground.com/bn-6/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/53395395-aa41-4dae-71bf-7cd7a1473300/public", alt: "melbet-2" },
-  { url: "https://riflerivercampground.com/bn-5/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/d85ee81d-6726-4002-50fa-939f283f3500/public", alt: "1xbet-2" },
+  { url: "https://riflerivercampground.com/bn-5/", img: "https://imgur.com/OxG9Nrb", alt: "1xbet-2" },
   { url: "https://riflerivercampground.com/bn-6/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/53395395-aa41-4dae-71bf-7cd7a1473300/public", alt: "melbet-3" }
 ];
 function renderSecondCubeBanner() {
@@ -187,7 +187,7 @@ const shuffledBanners = [
   { url: "https://riflerivercampground.com/bn-4/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/fdec73b4-ebd8-4449-4ca1-cf11f276a100/public", alt: "벳위즈" },
   { url: "https://riflerivercampground.com/bn-2/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d11759ca-6c22-4b22-3ae0-3ed298893500/public", alt: "물음표" },
   { url: "https://riflerivercampground.com/bn-3/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/13fc4195-2db7-4ecc-6317-792330765800/public", alt: "아하" },
-  { url: "https://riflerivercampground.com/bn-5/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/3c899412-c689-4f4c-11bc-a7c1944f1e00/public", alt: "1xbet" },
+  { url: "https://riflerivercampground.com/bn-5/", img: "https://imgur.com/RMwGTDs", alt: "1xbet" },
   { url: "https://riflerivercampground.com/bn-6/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/e2e9e4b7-dcd3-43e4-c082-ece47d34f100/public", alt: "멜벳" }
 ];
 const fixedBanners = [
