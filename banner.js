@@ -98,8 +98,6 @@ document.head.appendChild(style);
 const cubeBanners = [
   { url: "https://riflerivercampground.com/bn-2/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d0640ad4-71ce-4581-bc83-bc22d4dbaf00/public", alt: "토토총판-mul1" },
   { url: "https://riflerivercampground.com/bn-3/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/a54390cd-4825-45eb-97b2-9f7bd8985b00/public", alt: "토토총판-aha2" },
-  { url: "https://t.me/kkcc365", img: "https://imgur.com/qcSFjeH.jpg", alt: "토토총판" },
-  { url: "https://t.me/kkcc365", img: "https://imgur.com/C5G9NzG.jpg", alt: "토토총판" }
 ];
 function renderCubeBanner() {
   const stage = document.createElement('div');
@@ -132,8 +130,6 @@ renderCubeBanner();
 const shuffledBanners = [
   { url: "https://riflerivercampground.com/bn-2/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d11759ca-6c22-4b22-3ae0-3ed298893500/public", alt: "토토총판-물음표" },
   { url: "https://riflerivercampground.com/bn-3/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/13fc4195-2db7-4ecc-6317-792330765800/public", alt: "토토총판-아하" },
-  { url: "https://t.me/kkcc365", img: "https://imgur.com/XK2KF1z.jpg", alt: "토토총판" },
-  { url: "https://t.me/kkcc365", img: "https://imgur.com/zBciVJs,jpg", alt: "토토총판" },
   
 ];
 const fixedBanners = [
