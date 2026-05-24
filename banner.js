@@ -98,6 +98,8 @@ document.head.appendChild(style);
 const cubeBanners = [
   { url: "https://riflerivercampground.com/bn-2/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d0640ad4-71ce-4581-bc83-bc22d4dbaf00/public", alt: "토토총판-mul1" },
   { url: "https://riflerivercampground.com/bn-3/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/a54390cd-4825-45eb-97b2-9f7bd8985b00/public", alt: "토토총판-aha2" },
+  { url: "https://riflerivercampground.com/bn-2/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d0640ad4-71ce-4581-bc83-bc22d4dbaf00/public", alt: "토토총판-mul1" },
+  { url: "https://riflerivercampground.com/bn-3/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/a54390cd-4825-45eb-97b2-9f7bd8985b00/public", alt: "토토총판-aha2" },
 ];
 function renderCubeBanner() {
   const stage = document.createElement('div');
