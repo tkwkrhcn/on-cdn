@@ -98,8 +98,8 @@ document.head.appendChild(style);
 const cubeBanners = [
   { url: "https://riflerivercampground.com/bn-2/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d0640ad4-71ce-4581-bc83-bc22d4dbaf00/public", alt: "토토총판-mul1" },
   { url: "https://riflerivercampground.com/bn-3/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/a54390cd-4825-45eb-97b2-9f7bd8985b00/public", alt: "토토총판-aha2" },
-  { url: "https://riflerivercampground.com/bn-2/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d0640ad4-71ce-4581-bc83-bc22d4dbaf00/public", alt: "토토총판-mul1" },
-  { url: "https://riflerivercampground.com/bn-3/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/a54390cd-4825-45eb-97b2-9f7bd8985b00/public", alt: "토토총판-aha2" },
+  { url: "https://t.me/kkcc365", img: "https://imgur.com/qcSFjeH.jpg", alt: "토토총판" },
+  { url: "https://t.me/kkcc365", img: "https://imgur.com/C5G9NzG.jpg", alt: "토토총판" }
 ];
 function renderCubeBanner() {
   const stage = document.createElement('div');
@@ -135,8 +135,8 @@ const shuffledBanners = [
   
 ];
 const fixedBanners = [
-  { url: "https://riflerivercampground.com/bn-1/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/ad9b6afd-90a7-4fd1-82b0-d898534e7e00/public", alt: "총판모집" },
-  { url: "https://riflerivercampground.com/bn-1/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/ad9b6afd-90a7-4fd1-82b0-d898534e7e00/public", alt: "총판모집" }
+  { url: "https://t.me/kkcc365", img: "https://imgur.com/XK2KF1z.jpg", alt: "토토총판" },
+  { url: "https://t.me/kkcc365", img: "https://imgur.com/zBciVJs,jpg", alt: "토토총판" }
 ];
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
