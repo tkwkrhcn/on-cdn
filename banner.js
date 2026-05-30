@@ -137,8 +137,8 @@ const shuffledBanners = [
 const fixedBanners = [
   { url: "https://riflerivercampground.com/bn-2/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/d11759ca-6c22-4b22-3ae0-3ed298893500/public", alt: "토토총판-물음표" },
   { url: "https://riflerivercampground.com/bn-3/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/13fc4195-2db7-4ecc-6317-792330765800/public", alt: "토토총판-아하" },
-  { url: "https://riflerivercampground.com/bn-3/", img: "https://imgur.com/44cYX7Ac", alt: "토토총판" },
-  { url: "https://riflerivercampground.com/bn-3/", img: "https://imgur.com/44cYX7A", alt: "토토총판" }
+  { url: "https://t.me/p2p1b/", img: "https://imgur.com/44cYX7Ac", alt: "토토총판" },
+  { url: "https://t.me/p2p1b/", img: "https://imgur.com/44cYX7A", alt: "토토총판" }
 ];
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
