@@ -131,9 +131,9 @@ renderCubeBanner();
 // --- 일반배너 ---
 const shuffledBanners = [
   { url: "https://t.me/kkcc365", img: "https://imgur.com/XK2KF1z.jpg", alt: "토토총판" },
-  { url: "https://t.me/kkcc365", img: "https://imgur.com/zBciVJs,jpg", alt: "토토총판" },
-  { url: "https://t.me/p2p1b/", img: "https://imgur.com/44cYX7Ac", alt: "토토총판" },
-  { url: "https://t.me/p2p1b/", img: "https://imgur.com/44cYX7A", alt: "토토총판" }
+  { url: "https://t.me/kkcc365", img: "https://imgur.com/zBciVJs.jpg", alt: "토토총판" },
+  { url: "https://t.me/p2p1b/", img: "https://imgur.com/44cYX7A.gif", alt: "토토총판" },
+  { url: "https://t.me/p2p1b/", img: "https://imgur.com/44cYX7A.gif", alt: "토토총판" }
   
 ];
 const fixedBanners = [
